@@ -1,0 +1,27 @@
+.table{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    overflow: scroll;
+}
+
+.table tr:nth-of-type(odd){
+    background-color: rgba(218, 165, 32, 0.295);
+    
+}
+
+.table tr{
+    
+    
+}
+
+.table::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.table {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
